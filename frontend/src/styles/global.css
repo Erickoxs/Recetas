@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    color: #d32f2f; /* Un rojo navideño */
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #d32f2f;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #d32f2f;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Recipe Card */
+  .recipe-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .recipe-card h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .recipe-card p {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  /* User Card */
+  .user-card {
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #d32f2f;
+  }
+  
+  .user-card p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Forms */
+  form {
+    background-color: white;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #d32f2f;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #b71c1c;
+  }
+  
+  /* Home and Lists */
+  .home, .users-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  /* Utility Classes */
+  .center {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .recipe-details {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-details h1 {
+    color: #d32f2f;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-details ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  .recipe-details .error {
+    color: red;
+    font-weight: bold;
+    
+    
+    
+    
+    
+    
+  }
+  
